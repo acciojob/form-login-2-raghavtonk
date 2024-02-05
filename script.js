@@ -8,5 +8,5 @@ btn.addEventListener("click",(e)=>{
     let phno = document.getElementById("phonenumber").value;
     let email = document.getElementById("email").value;
     
-    alert(fname+" "+lname+" "+phno+" "+email)
+    alert("First Name: "fname+" Last Name: "+lname+" Phone Numaber: "+phno+" Email ID: "+email)
 });
